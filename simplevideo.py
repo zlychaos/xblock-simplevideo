@@ -22,11 +22,8 @@ class SimpleVideoBlock(XBlock):
         return [
             ("simple video",
             """\
-                <vertical>
                     <simplevideo href="https://vimeo.com/46100581" maxwidth="800" />
-                    <html><div>Rate the video:</div></html>
-                    <thumbs />
-                </vertical>""")
+            """)
         ]
 
     def student_view(self, context):
